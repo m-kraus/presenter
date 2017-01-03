@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section><section id="in-the-morning" class="titleslide slide level1"><h1>In the morning</h1></section><section id="getting-up" class="slide level2" data-background="#ff0000">
+<h2>Getting up</h2>
+<ul>
+<li>Turn off alarm</li>
+<li>Get out of bed</li>
+</ul>
+</section><section id="breakfast" class="slide level2">
+<h2>Breakfast</h2>
+<ul>
+<li>Eat eggs</li>
+<li>Drink coffee</li>
+</ul>
+</section></section>
+<section><section id="in-the-evening" class="titleslide slide level1"><h1>In the evening</h1></section><section id="dinner" class="slide level2">
+<h2>Dinner</h2>
+<ul>
+<li>Eat spaghetti</li>
+<li>Drink wine</li>
+</ul>
+</section><section class="slide level2">
+
+<figure>
+<img src="images/spaghetti.jpg" alt="picture of spaghetti" /><figcaption>picture of spaghetti</figcaption>
+</figure>
+</section><section id="going-to-sleep" class="slide level2">
+<h2>Going to sleep</h2>
+<ul>
+<li>Get in bed</li>
+<li>Count sheep</li>
+</ul>
+</section></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/reveal.js-menu/menu.js', async: true  }
+				]
+			});
+		</script>
+	</body>
+</html>
